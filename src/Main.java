@@ -41,7 +41,7 @@ public class Main {
 		System.out.println("\t\t# 学校服务器太渣,持续loop必崩!!!!!");
 		Student student =new Student();
 		String filename = "info1.txt";
-		String[] ipinfo = Student.getmyip("https://2021.ip138.com/", "html");
+		String[] ipinfo = Student.getmyip("https://2022.ip138.com/", "html");
 		InetAddress ip4 = Inet4Address.getLocalHost();
 		System.out.println("\t\t# 当前系统内网ip:"+ip4.getHostAddress());
 		System.out.println("\t\t# 当前系统外网ip:"+ipinfo[0]);
